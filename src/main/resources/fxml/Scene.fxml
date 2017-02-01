@@ -25,9 +25,9 @@
       <TextField fx:id="edadTF" layoutX="333.0" layoutY="63.0" prefHeight="25.0" prefWidth="76.0" />
       <TextField fx:id="correoTF" layoutX="437.0" layoutY="63.0" />
       <TextField fx:id="cedulaTF" layoutX="197.0" layoutY="63.0" prefHeight="25.0" prefWidth="94.0" />
-      <Button fx:id="aniadirBT" layoutX="64.0" layoutY="109.0" mnemonicParsing="false" onAction="#aniadir" text="Añadir" />
-      <Button fx:id="nuevoBT" layoutX="486.0" layoutY="109.0" mnemonicParsing="false" onAction="#nuevo" text="Nuevo" />
-      <Button fx:id="eliminarBT" layoutX="341.0" layoutY="109.0" mnemonicParsing="false" onAction="#eliminar" text="Eliminar" />
-      <Button fx:id="modificarBT" layoutX="211.0" layoutY="109.0" mnemonicParsing="false" onAction="#modificar" text="Modificar" />
+      <Button fx:id="aniadirBT" layoutX="64.0" layoutY="109.0" mnemonicParsing="false" onAction="aniadir" text="Añadir" />
+      <Button fx:id="nuevoBT" layoutX="486.0" layoutY="109.0" mnemonicParsing="false" onAction="nuevo" text="Nuevo" />
+      <Button fx:id="eliminarBT" layoutX="341.0" layoutY="109.0" mnemonicParsing="false" onAction="eliminar" text="Eliminar" />
+      <Button fx:id="modificarBT" layoutX="211.0" layoutY="109.0" mnemonicParsing="false" onAction="modificar" text="Modificar" />
    </children>
 </AnchorPane>
